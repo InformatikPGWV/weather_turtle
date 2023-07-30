@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python_poetry_template"
+name = "weather turtle"
 version = "0.1.0"
 description = ""
 authors = ["AstragoDE <51675359+AstragoDE@users.noreply.github.com>"]
@@ -9,6 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.9,<3.12"
 rich = "^13.3.1"
+pyfiglet = "^0.8.post1"
 
 [tool.poetry.group.dev.dependencies]
 autopep8 = "^2.0.1"

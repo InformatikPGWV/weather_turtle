@@ -64,7 +64,7 @@ def fetchTemp():
     return str(currentTemp)
 
 
-# male die übergebenen String
+# male den übergebenen String
 def drawAscii(string, color):
     formattedString = format2Ascii(string)
     turtle.pencolor(color)

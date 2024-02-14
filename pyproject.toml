@@ -7,13 +7,12 @@ license = ""
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.12"
+python = ">=3.9"
 rich = "^13.3.1"
 pyfiglet = "^0.8.post1"
 
 [tool.poetry.group.dev.dependencies]
 autopep8 = "^2.0.1"
-pyinstaller = "^5.7.0"
 
 [build-system]
 requires = ["poetry-core"]
